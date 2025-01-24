@@ -26,6 +26,10 @@ The Trello Sync Project is a robust Node.js application designed to synchronize 
   - AWS CloudWatch: For monitoring and logging.
 - **Trello API**: To interact with Trello cards and boards.
 
+ ```bash
+# This is a shell command
+source env/bin/activate
+
 ---
 
 ## **Project Structure**
@@ -46,7 +50,5 @@ trello-_two_way_sync/
 ├── README.md              # Documentation
 └── template.yaml          # AWS SAM template for cloud deployment
 
-```bash
-# This is a shell command
-source env/bin/activate
+
 
