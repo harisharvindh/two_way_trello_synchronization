@@ -11,10 +11,10 @@ As modern teams rely heavily on Trello for managing tasks and projects, there of
 
 The Advanced Trello Sync Project solves this problem by:
 
--Automating synchronization across boards.
--Reducing manual efforts by up to 80%.
--Enhancing operational efficiency by maintaining consistent and accurate data across workflows.
--Supporting additional fields and advanced use cases for flexibility in diverse project environments.
+-**Automating synchronization across boards.**
+-**Reducing manual efforts by up to 80%.**
+-**Enhancing operational efficiency by maintaining consistent and accurate data across workflows.**
+-**Supporting additional fields and advanced use cases for flexibility in diverse project environments.**
 
 ---
 
