@@ -45,3 +45,8 @@ trello-_two_way_sync/
 │   └── app.log            # Log file for operations
 ├── README.md              # Documentation
 └── template.yaml          # AWS SAM template for cloud deployment
+
+```bash
+# This is a shell command
+source env/bin/activate
+
