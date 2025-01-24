@@ -30,7 +30,7 @@ The Trello Sync Project is a robust Node.js application designed to synchronize 
 
 ---
 
-## **Project Structure**
+## **Structure**
 ```plaintext
 trello-_two_way_sync/
 ├── .env                   # Environment variables for sensitive data
@@ -48,18 +48,5 @@ trello-_two_way_sync/
 ├── README.md              # Documentation
 └── template.yaml          # AWS SAM template for cloud deployment
 
-# Installation
-
-## With pip
-
-This repository is tested on Python 3.9+, Flax 0.4.1+, PyTorch 2.0+, and TensorFlow 2.6+.
-
-You should install 🤗 Transformers in a [virtual environment](https://docs.python.org/3/tutorial/venv.html). If you're unfamiliar with Python virtual environments, check out the [user guide](https://docs.python.org/3/tutorial/venv.html).
-
-First, create a virtual environment with the version of Python you're going to use and activate it:
-
-### macOS/Linux
-```bash
-source env/bin/activate
 
 
