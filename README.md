@@ -32,7 +32,7 @@ The Trello Sync Project is a robust Node.js application designed to synchronize 
 
 ## **Structure**
 ```plaintext
-trello-_two_way_sync/
+trello_two_way_sync/
 ├── .env                   # Environment variables for sensitive data
 ├── package.json           # Project dependencies and scripts
 ├── index.js               # Main Lambda function handler
