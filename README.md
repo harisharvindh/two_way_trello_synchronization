@@ -1,7 +1,7 @@
-# Two Way Trello Synchronization
+# Two Way Trello Synchronization using AWS Serverless
 
 ## **Overview**
-The Advanced Trello Sync Project is a robust Node.js application designed to synchronize Trello cards between different boards. It offers real-time, two-way synchronization of card fields like names, descriptions, labels, and due dates, while providing scalability and automation through AWS Lambda deployment. With advanced conflict resolution, error handling, and event-driven updates, this tool ensures efficient management of Trello workflows.
+The Trello Sync Project is a robust Node.js application designed to synchronize Trello cards between different boards. It offers real-time, two-way synchronization of card fields like names, descriptions, labels, and due dates, while providing scalability and automation through AWS Lambda deployment. With advanced conflict resolution, error handling, and event-driven updates, this tool ensures efficient management of Trello workflows.
 
 ---
 
@@ -30,7 +30,7 @@ The Advanced Trello Sync Project is a robust Node.js application designed to syn
 
 ## **Project Structure**
 ```plaintext
-trello-sync-extended/
+trello-_two_way_sync/
 ├── .env                   # Environment variables for sensitive data
 ├── package.json           # Project dependencies and scripts
 ├── index.js               # Main Lambda function handler
