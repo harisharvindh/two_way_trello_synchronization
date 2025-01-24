@@ -1,0 +1,17 @@
+Resources:
+  TrelloSyncFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs18.x
+      CodeUri: .
+      Environment:
+        Variables:
+          TRELLO_API_KEY: !Ref TRELLO_API_KEY
+          TRELLO_API_TOKEN: !Ref TRELLO_API_TOKEN
+      Events:
+        Api:
+          Type: Api
+          Properties:
+            Path: /sync
+            Method: POST
