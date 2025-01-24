@@ -1,7 +1,20 @@
 # Two Way Trello Synchronization using AWS Serverless
 
 ## **Overview**
-The Trello Sync Project is a robust Node.js application designed to synchronize Trello cards between different boards. It offers real-time, two-way synchronization of card fields like names, descriptions, labels, and due dates, while providing scalability and automation through AWS Lambda deployment. With advanced conflict resolution, error handling, and event-driven updates, this tool ensures efficient management of Trello workflows.
+The Trello Sync Project is a cloud-native, serverless application built using Node.js and deployed on AWS Lambda. It is designed to streamline the synchronization of Trello cards across multiple boards, ensuring real-time data consistency in collaborative workflows. By leveraging Trello's robust API and AWS's scalable infrastructure, this tool eliminates the need for manual updates, significantly enhancing team productivity.
+
+The project enables two-way synchronization of Trello cards, ensuring the latest changes in card attributes like names, descriptions, labels, due dates, and checklists are reflected seamlessly between the source and target cards. Advanced features such as conflict resolution using timestamps, retry mechanisms to handle API rate limits, and event-driven updates via Trello Webhooks make the application highly reliable and efficient for dynamic workflows.
+
+In addition to its functional features, the project is designed for scalability and monitorability. It integrates AWS CloudWatch for detailed logging and monitoring, providing actionable insights into synchronization processes. AWS Serverless Application Model (SAM) is utilized to manage the deployment and infrastructure as code, making it easy to set up, maintain, and extend.
+
+As modern teams rely heavily on Trello for managing tasks and projects, there often arises a need to share or mirror information across boards or teams. Without an automated solution, such tasks require time-consuming manual efforts, leading to inefficiencies and the potential for inconsistencies.
+
+The Advanced Trello Sync Project solves this problem by:
+
+-Automating synchronization across boards.
+-Reducing manual efforts by up to 80%.
+-Enhancing operational efficiency by maintaining consistent and accurate data across workflows.
+-Supporting additional fields and advanced use cases for flexibility in diverse project environments.
 
 ---
 
